@@ -56,6 +56,18 @@ if (campaignTrail_temp.player_answers == 3501) {
     campaignTrail_temp.answer_feedback_flg = 1;
     campaignTrail_temp.game_start_logging_id = '3843333';
 }
+if (campaignTrail_temp.player_answers == 3502) {
+    campaignTrail_temp.candidate_image_url = 'https://www.jcs.mil/portals/36/Images/BiographyPhotos/cjcs/012_powell.jpg';
+    campaignTrail_temp.running_mate_image_url = 'https://i.ebayimg.com/images/g/t8MAAOSwUY1gV7at/s-l1200.webp';
+    campaignTrail_temp.candidate_last_name = 'Powell';
+    campaignTrail_temp.running_mate_last_name = 'for President';
+    document.body.background = "https://content.time.com/time/magazine/archive/covers/1995/1101950710_400.jpg";
+    campaignTrail_temp.running_mate_state_id = '426';
+    campaignTrail_temp.player_answers = [];
+    campaignTrail_temp.player_visits = [];
+    campaignTrail_temp.answer_feedback_flg = 1;
+    campaignTrail_temp.game_start_logging_id = '3843333';
+}
 }
 
 e.primary=true // toggles primary mode on
